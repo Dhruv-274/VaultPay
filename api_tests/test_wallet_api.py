@@ -2,7 +2,7 @@ import requests
 import pytest
 
 BASE_URL = "https://reqres.in/api"
-API_KEY = "reqres-free-v1"  # Use your actual API key here
+API_KEY = "reqres-free-v1" 
 print("Loaded test_wallet_api.py")
 
 @pytest.fixture(scope="module")
